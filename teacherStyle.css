@@ -1,0 +1,50 @@
+body {
+    background-color: #f0f8ff;
+    font-family: 'Arial', sans-serif;
+}
+.teacher-details {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 500px;
+    text-align: center;
+}
+.teacher-details h2 {
+    font-weight: bold;
+    font-size: 28px;
+    color: #2c3e50;
+}
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.list-group-item {
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    padding-left: 0;
+}
+.list-group-item i {
+    margin-right: 10px;
+    color: #3498db;
+}
+.btn-contact {
+    background-color: #3498db;
+    color: #f0f8ff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+.btn-contact:hover {
+    background-color: #2980b9;
+    color: #f0f8ff;
+}
+.list-group-item:hover {
+    color: #2980b9;
+}

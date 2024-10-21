@@ -1,0 +1,22 @@
+.timetable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.timetable th, .timetable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.timetable tr:hover {
+    background-color: #f9e79f;  
+    transition: background-color 0.3s ease;
+}
+
+.timetable th:hover, .timetable td:hover {
+    background-color: #f5b041; 
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
